@@ -1,0 +1,35 @@
+# Bu dizinler Unity tarafından otomatik olarak üretilir, GitHub'da yeri yoktur
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Asset klasörü içindeki gereksiz bellek önbellekleri
+/Assets/AssetStoreTools*
+/Assets/Plugins/GitHub/Editor/caches*
+
+# Otomatik oluşturulan çözüm (Solution) ve proje dosyaları
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# macOS'a özgü gizli sistem dosyaları (Mac'te çalıştığın için çok önemli)
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
